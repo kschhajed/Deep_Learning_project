@@ -11,6 +11,18 @@ Following pre-trained models are further finetuned on our dataset :
 - BART - https://huggingface.co/sumedh/distilbart-cnn-12-6-amazonreviews
 - Pegasus - model weights can be obtained by running the Pegasus_finetuning.ipynb
 
+## Usage 
+To use the model directly in code, use the following snippets, <br>
+For T5 model using transformers library
+`from transformers import AutoTokenizer, AutoModelForSeq2SeqLM`<br>
+`tokenizer = AutoTokenizer.from_pretrained("sumedh/t5-base-amazonreviews")`<br>
+`model = AutoModelForSeq2SeqLM.from_pretrained("sumedh/t5-base-amazonreviews")`<br>
+
+For BART model using transformers library<br>
+`from transformers import AutoTokenizer, AutoModelForSeq2SeqLM`<br>
+'tokenizer = AutoTokenizer.from_pretrained("sumedh/distilbart-cnn-12-6-amazonreviews")'<br>
+`model = AutoModelForSeq2SeqLM.from_pretrained("sumedh/distilbart-cnn-12-6-amazonreviews")'<br>
+
 ## Dataset
 Amazon reviews Dataset was downloaded from [here](https://huggingface.co/datasets/amazon_us_reviews), the finetuned models used english language reviews in the dataset across a subset of product reviews due to the limitation of computational resource constraints.<br/>
 
