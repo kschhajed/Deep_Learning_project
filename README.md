@@ -7,8 +7,9 @@ Following pre-trained models are further finetuned on our dataset :
 - facebook/Bart model <br/>
 
 ## Model weights and Demo
-- https://huggingface.co/sumedh/t5-base-amazonreviews
-- https://huggingface.co/sumedh/distilbart-cnn-12-6-amazonreviews
+- T5 - https://huggingface.co/sumedh/t5-base-amazonreviews
+- BART - https://huggingface.co/sumedh/distilbart-cnn-12-6-amazonreviews
+- Pegasus - model weights can be obtained by running the Pegasus_finetuning.ipynb
 
 ## Dataset
 Amazon reviews Dataset was downloaded from [here](https://huggingface.co/datasets/amazon_us_reviews), the finetuned models used english language reviews in the dataset across a subset of product reviews due to the limitation of computational resource constraints.<br/>
