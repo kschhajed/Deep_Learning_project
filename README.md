@@ -21,7 +21,7 @@ Instructions to run the project:<br/>
 If running these notebooks on colab or any other platform, you need to set output directories or init directories wherever applicable in the notebook
 
 
-References: 
+References: <br/>
 https://shivanandroy.com/fine-tune-t5-transformer-with-pytorch/
 
 
