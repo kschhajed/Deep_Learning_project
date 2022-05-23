@@ -7,7 +7,7 @@ google/T5 model <br/>
 google/Pegasus model <br/>
 facebook/Bart model <br/>
 
-Dataset was downloaded from (here)[https://huggingface.co/datasets/amazon_us_reviews] but only a subset of the dataset was downloaded and used due to computational issues.<br/>
+Dataset was downloaded from [here](https://huggingface.co/datasets/amazon_us_reviews) but only a subset of the dataset was downloaded and used due to computational issues.<br/>
 
 Instructions to run the project:<br/>
 
