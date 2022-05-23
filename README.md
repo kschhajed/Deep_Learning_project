@@ -43,7 +43,7 @@ Amazon reviews Dataset was downloaded from [here](https://huggingface.co/dataset
 During the finetuning process, several techniques for easily fitting the model on low resource systems
 were used.
 - 8 bit Optimizers: We made use of 8 bit Adam optimizers in the finetuning process which accelerates optimization compared to default 32 bit Adam optimizer but uses    memory that might otherwise be allocated to model parameters, thereby limiting the maximum size of models trained in practice. The 8-bit statistics maintain the performance levels of using 32-bit optimizer states.
-- Efficient Batching and learning rate experimentation: We experimented with a combination of smaller batch sizes and higher learning rates for the model to perform optimally based on the resources for training. The chosen combination ensured that the model training remained stable even when the learning rates were higher.[22]
+- Efficient Batching and learning rate experimentation: We experimented with a combination of smaller batch sizes and higher learning rates for the model to perform optimally based on the resources for training. The chosen combination ensured that the model training remained stable even when the learning rates were higher.
 - Gradient accumulation: We implemented gradient accumulation which modifies the last step of the training process. Instead of updating the network weights on every batch, we save gradient values, proceed to the next batch and add up the new gradients. The weight update is then done only after several batches have been processed by the model. Gradient accumulation helps to imitate a larger batch size
 
 ## Project report
