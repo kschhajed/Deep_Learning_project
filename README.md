@@ -15,7 +15,7 @@ Amazon reviews Dataset was downloaded from [here](https://huggingface.co/dataset
 - Run the following notebooks:
   - T5_summarization_for_amazon_us_reviews_cse676.ipynb 
   - BART_finetuning_amazonreviews.ipynb 
-  - PEGASUS.ipynb 
+  - Pegasus_finetuning.ipynb
 - If running these notebooks on colab or any other platform, you need to set output directories or init directories as and where applicable in the notebook
 
 
