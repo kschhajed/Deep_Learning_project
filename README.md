@@ -20,7 +20,8 @@ Amazon reviews Dataset was downloaded from [here](https://huggingface.co/dataset
 
 
 ## References:
-- https://shivanandroy.com/fine-tune-t5-transformer-with-pytorch/
+- https://shivanandroy.com/fine-tune-t5-transformer-with-pytorch/<br/>
+- https://github.com/nlp-with-transformers/notebooks/blob/main/06_summarization.ipynb
 
 
 
