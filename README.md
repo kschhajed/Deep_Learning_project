@@ -12,6 +12,9 @@ Following pre-trained models are further finetuned on our dataset :
 - Pegasus - model weights can be obtained by running the Pegasus_finetuning.ipynb
 
 ## Usage 
+Install the requirements from req.txt using <br>
+`pip install -r req.txt` <br>
+
 To use the model directly in code, use the following snippets, <br>
 For T5 model using transformers library <br>
 `from transformers import AutoTokenizer, AutoModelForSeq2SeqLM`<br>
