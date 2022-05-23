@@ -1,4 +1,5 @@
 # CSE_676_project
+## Extractive Text Summarization using Transformers
 With the increased use of e-commerce websites, it is helpful to have a quick and valuable insight of reviews of products bought online, to discern important customer feedback in a short summary, leaving out irrelevant information. While the overall rating provides a general indication of the product’s validity, the customer review section provides a more detailed picture to people who plan on buying the product. We propose an application type project which aims to summarize the customer feedback using Natural Language Processing techniques to improve the buying and selling experience for our target audience: customers and sellers on e-commerce platforms. In this project, we perform Extractive Text Summarization on product reviews for any given E-commerce platform, for an impactful and improved consumer experience. We are experimenting with 3 models, fine tuning them and comparing their results and analysis.
 
 Following pre-trained models are further finetuned on our dataset :
